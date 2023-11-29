@@ -1,0 +1,20 @@
+{"intents":
+[
+    {"tag":"salutation",
+        "patterns":["Bonjour","Salut"],
+        "responses":["Bien le bonjour! Que puis-je faire pour vous?"]},
+
+    {"tag":"creation_note",
+        "patterns":["Créer une note ","Crée-moi une note","créer liste"],
+        "responses":[""]},
+    {"tag":"add_note",
+            "patterns":["ajouter nouvelle note","Ajout liste"],
+            "responses":[""]},
+    {"tag":"show_todos",
+            "patterns":["Affiche ma liste","Liste"],
+            "responses":[""]},
+    {"tag":"exit",
+        "patterns":["Sortie"],
+        "responses":[""]}
+
+    ]}
